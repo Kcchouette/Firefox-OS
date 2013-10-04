@@ -1,0 +1,169 @@
+/*https://dpaste.de/0hqUO/*/
+html
+{
+    font-family: verdana;
+    font-size: medium;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    font-family: georgia, serif;
+    font-size: medium;
+    color: black;
+    background-color: silver;
+    background-image:url(Meet-the-Firefox-OS-Mascot-a-Fox-That-s-on-Fire.png);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+header
+{
+    font-family: verdana;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border : 5px;
+}
+
+section
+{
+    text-align: center;
+}
+
+section p
+{
+    font-size: medium;
+    color: black;    
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+article
+{
+    width: 62%;
+    display: inline-block;
+}
+
+aside
+{
+    width: 33%;
+    display: inline-block;
+    /*border: 3px dashed #FF8000;*/
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+aside > div
+{
+    background-color: rgba(255, 255, 255, 0.5);;
+    width: 100%;
+}
+
+nav, footer
+{
+    display: inline-block;
+    width: 100%;
+}
+
+nav 
+{
+    text-align: center;
+}
+
+footer 
+{
+    text-align: center;
+}
+
+nav ul, footer ul
+{
+    list-style-type: none;
+    margin: 0 auto;  
+}
+
+nav li, footer li
+{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+
+nav li 
+{
+	box-shadow: 2px 2px 2px black ;
+    border: 1px solid red;
+    background-color: #EF8080;
+    border-radius: 4px;
+}
+
+.paragraphe-like
+{
+    font-size: medium;
+    color: black;
+    /*border: none;*/
+    background-color: rgba(255, 255, 255, 0.5);
+    background-position: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+h1
+{
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #484848 ;
+    text-align: center;
+    color: black;
+}
+
+h2
+{
+ color: #484848;
+}
+
+nav > ul a
+{
+    font-size: x-large;
+    color: black;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+footer > ul > li a
+{
+    color: rgb(0, 115, 170);
+}
+
+nav ul li ul 
+{
+	position:absolute;
+	width:100px;
+}
+nav ul li ul li 
+{
+	width:100px;
+}
+nav ul li ul li a 
+{
+	display:block;
+	padding:15px 10px;
+	font-size: small;
+}
+nav ul li ul li:hover a 
+{
+	background:#ff6347 ;
+}
+
+nav ul li ul.fallback 
+{
+	display:none;
+}
+
+nav ul li:hover ul.fallback 
+{
+	display:block;
+}
